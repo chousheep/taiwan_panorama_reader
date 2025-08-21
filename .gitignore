@@ -1,0 +1,7 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore specific notebook
+main.ipynb
+
+
