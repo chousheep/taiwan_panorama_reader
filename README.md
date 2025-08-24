@@ -5,15 +5,15 @@ This tool allows you to fetch and display articles from Taiwan Panorama in multi
 - **Multi-language Support**: Handles articles in languages such as Traditional Chinese, English, Japanese, Vietnamese, Thai, and Indonesian.
 - **Customizable Output**: Choose between full-article or interleaved paragraph-by-paragraph display.
 
-Supported Languages (depends on languages found in the aritcle)
-| Language          | Code  |
-|-------------------|-------|
-| 繁體中文 | zh |
-| English           | en    |
-| 日本語          | ja    |
-| Tiếng Việt        | vi    |
-| ภาษาไทย            | th    |
-| Bahasa        | id    |
+**Supported Languages** (depends on languages found in the aritcle)
+    | Language          | Code  |
+    |-------------------|-------|
+    | 繁體中文 | zh |
+    | English           | en    |
+    | 日本語          | ja    |
+    | Tiếng Việt        | vi    |
+    | ภาษาไทย            | th    |
+    | Bahasa Indonesia        | id    |
 
 ## Implementation
 ### Using uv (recommended)
