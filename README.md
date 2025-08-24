@@ -5,15 +5,15 @@ This tool allows you to fetch and display articles from Taiwan Panorama in multi
 - **Multi-language Support**: Handles articles in languages such as Traditional Chinese, English, Japanese, Vietnamese, Thai, and Indonesian.
 - **Customizable Output**: Choose between full-article or interleaved paragraph-by-paragraph display.
 
-### Supported Languages
+Supported Languages (depends on languages found in the aritcle)
 | Language          | Code  |
 |-------------------|-------|
-| Traditional Chinese | zh-TW |
+| 繁體中文 | zh |
 | English           | en    |
-| Japanese          | ja    |
-| Vietnamese        | vi    |
-| Thai              | th    |
-| Indonesian        | id    |
+| 日本語          | ja    |
+| Tiếng Việt        | vi    |
+| ภาษาไทย            | th    |
+| Bahasa        | id    |
 
 ## Implementation
 ### Using uv (recommended)
@@ -48,4 +48,4 @@ By using this tool, you agree to comply with Taiwan Panorama's Terms of Use and 
 - The tool may not work if the website structure changes or if the article is unavailable.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
