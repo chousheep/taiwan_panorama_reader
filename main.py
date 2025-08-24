@@ -357,9 +357,22 @@ def prompt_languages_paragraph(found_map: dict, lang_tabs_meta: dict):
                 return [c for c in LANGS if c in requested]
         print("Invalid selection. Choose languages from exactly one group above.")
 
+def confirm_consent():
+    print("!!!!!! DISCLAIMER !!!!!!")
+    print("This tool will fetch content from Taiwan Panorama on your behalf.")
+    print("By continuing, you agree to:")
+    print("  • Comply with Taiwan Panorama's Terms of Use")
+    print("  • Authorize this program to send automated requests for you")
+    choice = input("Do you agree? [Y/N]: ").strip().lower()
+    if choice != "y":
+        print("Aborted. You must agree to continue.")
+        exit(1)
+
 # =================== Main ===================
 
 if __name__ == "__main__":
+    confirm_consent()
+    print()
     print_header()
     seed = input("URL -> ").strip()
 
